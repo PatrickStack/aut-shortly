@@ -184,8 +184,11 @@ select:-webkit-autofill:focus {
   border-radius: 8px;
   border: 0;
 }
-.url-shortener__copy-buttnon {
+.url-shortener__copy-button {
   min-width: 103px;
+}
+.url-shortener__copy-button-copied {
+  background-color: #3A3054;
 }
 /* hero */
 .hero {
@@ -287,6 +290,7 @@ select:-webkit-autofill:focus {
 }
 .url-shortener__resaultes--open {
   display: block;
+  margin-top: -80px;
 }
 .url-shortener__result {
   display: flex;
