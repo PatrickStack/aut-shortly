@@ -179,7 +179,7 @@ select:-webkit-autofill:focus {
   width: 103px;
   font-size: 15px;
   height: 40px;
-  line-height: auto;
+  line-height: normal;
   font-weight: bold;
   border-radius: 8px;
   border: 0;
@@ -247,7 +247,7 @@ select:-webkit-autofill:focus {
 .url-shortener__input-wrapper {
   display: flex;
   position: relative;
-  background-color: var(4B3F6B);
+  background-color: #4B3F6B;
   margin-right: 24px;
   border-radius: 10px;
   flex-grow: 1;
@@ -312,15 +312,101 @@ select:-webkit-autofill:focus {
   white-space: nowrap;
 }
 .url-shortener__short-link {
-  font-style: 20px;
+  font-size: 20px;
   line-height: 36px;
   margin-right: 20px;
   text-decoration: none;
   color: var(--button-blue);
 }
-.button {
+
+
+/* index-features */
+.index-features {
+  padding-top: 50px;
+  margin-top: -120px;
+  padding-bottom: 120px;
+  background-color: var(--body-bg);
 }
-.button-rengtengle {
+.index-features__top {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 540px;
+  text-align: center;
+  margin-bottom: 100px;
 }
-.ulr-shortener__result {
+.index-features__title {
+  margin-bottom: 18px;
+  font-size: 40px;
+  line-height: 48px;
+  color: var(--large-text-color);
+}
+.index-features__text {
+  margin: 0;
+  color: var(--text-color);
+  text-align: center;
+  width: 540px;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+
+.index-features__list {
+  position: relative;
+  display: flex;
+  z-index: 1;
+  align-items: flex-start;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.index-features__list::before {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  left: 0;
+  top: 172px;
+  height: 8px;
+  background-color: var(--button-blue);
+  content: "";
+}
+.index-features__item:not(:last-child) {
+  margin-right: 30px;
+}
+.index-features__item {
+  width: 350px;
+  position: relative;
+}
+.index-features__item:nth-child(2) {
+  margin-top: 44px;
+}
+.index-features__item:nth-child(3) {
+  margin-top: 88px;
+}
+.index-feature {
+  padding: 77px 32px 40px 32px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.index-feature__icon-wrapper {
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+  position: absolute;
+  background-color: #34313D;
+  width: 88px;
+  left: 30px;
+  top: -50px;
+  height: 88px;
+}
+.index-feature__title {
+  margin-top: 0;
+  font-size: 22px;
+  line-height: normal;
+  color: var(--large-text-color);
+}
+.index-feature__info {
+  font-size: 15px;
+  line-height: 26px;
+  color: var(--text-color);
 }
