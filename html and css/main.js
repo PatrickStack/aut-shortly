@@ -32,7 +32,7 @@ if (elUrlShortener) {
       setTimeout(function () {
         evt.target.textContent = 'Copy';
         evt.target.classList.remove('url-shortener__copy-button-copied')
-      }, 2000);
+      }, 1500);
     }
   });
 }
