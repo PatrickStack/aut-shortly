@@ -447,7 +447,7 @@ select:-webkit-autofill:focus {
   margin-bottom: 32px;
 }
 
-/* site footer */
+/* Site Footer */
 .site-footer {
   padding-top: 72px;
   padding-bottom: 72px;
@@ -493,7 +493,7 @@ select:-webkit-autofill:focus {
   color: var(--button-blue);
 }
 
-/* socilas */
+/* Socilas */
 .socials__list {
   display: flex;
   list-style: none;
