@@ -79,7 +79,7 @@ select:-webkit-autofill:focus {
 }
 
 
-/* site header  */
+/* Site header  */
 .site-header {
   padding-top: 48px;
   padding-bottom: 48px;
@@ -197,7 +197,7 @@ select:-webkit-autofill:focus {
 .url-shortener__copy-button-copied {
   background-color: #3A3054;
 }
-/* hero */
+/* Hero */
 .hero {
   background-image: url(../img/working_with_computer.svg);
   background-repeat: no-repeat;
@@ -224,8 +224,8 @@ select:-webkit-autofill:focus {
   letter-spacing: 0.15px;
   margin-bottom: 50px;
 }
-/* amin content */
-/* index-url-shortener-features-wrapper */
+/* Main content */
+/* Index-url-shortener-features-wrapper */
 .index-url-shortener-features-wrapper {
   background-color: var(--body-bg);
 }
@@ -291,7 +291,7 @@ select:-webkit-autofill:focus {
   color: var(--error-color);
   letter-spacing: 0.11px;
 }
-/* ult-shortener__results */
+/* Ult-shortener__results */
 .url-shortener__resaultes {
   display: none;
 }
@@ -327,7 +327,7 @@ select:-webkit-autofill:focus {
 }
 
 
-/* index-features */
+/* Index-features */
 .index-features {
   padding-top: 50px;
   margin-top: -120px;
@@ -421,7 +421,7 @@ select:-webkit-autofill:focus {
   color: var(--text-color);
 }
 
-/* cta */
+/* Cta */
 .cta {
   background-image: url(../img/path2.svg);
   background-repeat: no-repeat;
