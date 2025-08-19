@@ -20,12 +20,10 @@ if (elUrlShortener) {
     if (evt.target.matches('.js-copy-short-link-button')) {
       // change button text
       evt.target.textContent = 'Copied'
-
       // change button bg color
       evt.target.classList.add('url-shortener__copy-button-copied');
       // copy url link
       navigator.clipboard.writeText(evt.target.previousElementSibling.textContent);
-
       // time
       setTimeout(function () {
         evt.target.textContent = 'Copy';
