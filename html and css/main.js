@@ -1,9 +1,7 @@
 const elUrlShortener = document.querySelector('.url-shortener')
-
 const elUrlShortenerForm = document.querySelector('.js-url-shortener-form')
 const elUrlShortenerResults = document.querySelector('.url-shortener__resaultes')
 const elCopyUrlShorLink = document.querySelector('.js-copy-short-link-button')
-
 
 elUrlShortenerForm.addEventListener('submit', function (evt) {
   evt.preventDefault();
