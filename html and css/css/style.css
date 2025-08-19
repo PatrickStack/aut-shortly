@@ -50,7 +50,6 @@ select:-webkit-autofill:focus {
   transition: background-color 5000s ease-in-out 0s;
 }
 
-
 /* CONTAINER */
 .container {
   max-width: 1008px;
@@ -77,7 +76,6 @@ select:-webkit-autofill:focus {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
 
 /* Site header  */
 .site-header {
@@ -325,7 +323,6 @@ select:-webkit-autofill:focus {
   text-decoration: none;
   color: var(--button-blue);
 }
-
 
 /* Index-features */
 .index-features {
